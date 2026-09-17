@@ -14,17 +14,6 @@ html {
   overflow-x: hidden;
 }
 
-body {
-  font-family: "Rubik", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-}
 
 a {
   text-decoration: none;
@@ -103,36 +92,23 @@ a {
   transition: all 0.3s;
 }
 
-.btn--full:link,
-.btn--full:visited {
+.btn--full {
   color: #fff;
   background-color: #2563eb;
 }
 
-.btn--full:hover,
-.btn--full:active {
+.btn--full:hover {
   background-color: #1d4ed8;
 }
 
-.btn--outline:link,
-.btn--outline:visited {
+.btn--outline {
   color: #555;
   background-color: #fff;
 }
 
-.btn--outline:hover,
-.btn--outline:active {
+.btn--outline:hover {
   background-color: #eef2ff;
   box-shadow: inset 0 0 0 3px #fff;
-}
-
-.btn--form {
-  color: #fff;
-  background-color: #2563eb;
-}
-
-.btn--form:hover {
-  background-color: #1d4ed8;
 }
 
 .margin-right-sm {
@@ -990,19 +966,7 @@ a {
   gap: 1.6rem;
 }
 
-.footer-link:link,
-.footer-link:visited {
-  font-size: 1.6rem;
 
-  color: #767676;
-
-  transition: color 0.3s;
-}
-
-.footer-link:hover,
-.footer-link:active {
-  color: #2563eb;
-}
 
 
 /* =========================================================
@@ -1304,34 +1268,5 @@ a {
   .logo-col {
     grid-column: auto;
   }
-  /* =========================================================
-   ANIMATIONS
-========================================================= */
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
 
 }
