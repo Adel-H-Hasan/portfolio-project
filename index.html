@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -39,6 +39,8 @@
 
     <header class="header">
       <a href="#" class="logo"> Adel Hasan </a>
+
+      <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle" />
 
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -64,12 +66,12 @@
         </ul>
       </nav>
 
-      <!-- Mobile button -->
-      <button class="btn-mobile-nav">
+      <!-- Mobile button (pure CSS toggle via the checkbox above) -->
+      <label class="btn-mobile-nav" for="nav-toggle">
         <ion-icon class="icon-mobile-nav" name="menu-outline"> </ion-icon>
 
         <ion-icon class="icon-mobile-nav" name="close-outline"> </ion-icon>
-      </button>
+      </label>
     </header>
 
     <main>
@@ -525,21 +527,13 @@
 
           <ul class="social-links">
             <li>
-              <a
-                class="footer-link"
-                href="https://github.com/"
-                aria-label="GitHub"
-              >
+              <a class="footer-link" href="https://github.com/" aria-label="GitHub">
                 <ion-icon class="social-icon" name="logo-github"> </ion-icon>
               </a>
             </li>
 
             <li>
-              <a
-                class="footer-link"
-                href="https://www.linkedin.com/feed/"
-                aria-label="LinkedIn"
-              >
+              <a class="footer-link" href="https://www.linkedin.com/feed/" aria-label="LinkedIn">
                 <ion-icon class="social-icon" name="logo-linkedin"> </ion-icon>
               </a>
             </li>
