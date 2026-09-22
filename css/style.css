@@ -705,18 +705,7 @@ a {
   margin-bottom: 2.4rem;
 }
 
-.footer-nav {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
 
-.footer-link {
-  color: #767676;
-  font-family: "Poppins", sans-serif;
-  transition: color 0.3s;
-}
 
 .footer-link:hover {
   color: #2563eb;
